@@ -94,3 +94,78 @@
 
 
 // comentario inserido em 17/06/26
+
+
+// let n1,n2,dim;
+// n1= 9;
+// n2= 17;
+
+// console.log(`Informe um número: ${n1}`);
+// console.log(`Informe um número: ${n2}`);
+
+// if(n1>n2){
+//     dim = n1-n2 ; 
+ 
+//     console.log(`A diferça entre os números é: ${dim}`);
+  
+// }else{
+    
+//     dim = n2-n1 ; 
+ 
+//     console.log(`A diferça entre os números é: ${dim}`);
+  
+// }
+
+
+// questão 7
+
+// Desenvolver um programa que pergunte um valor inteiro positivo ou negativo, e exiba como resposta o módulo
+// deste valor, ou seja, o número lido como sendo positivo.
+
+// let n1,mod;
+
+
+// n1 = -9;
+// console.log(`Informe um numero: ${n1}`);
+
+// if(n1<1){
+//  mod= n1*(-1);
+//  console.log(`Seu modulo é: ${mod}`)
+// }else{
+//     console.log(`Seu modulo é: ${n1}`);
+// }
+
+
+// questão 8
+
+let n1;
+console.log(``);
+
+
+
+
+
+
+
+
+
+
+//Questão n9
+
+// let n1;
+
+// n1 = 0; 
+// console.log(`Informe um numero: ${n1}`);
+
+// if(n1>0){
+//  console.log(`${n1} é positivo`);
+// }else if(n1===0) {
+//    console.log(`${n1} é nulo`);
+// }else{
+//     console.log(`${n1} é negativo`);
+// }
+
+
+
+
+
