@@ -22,3 +22,5 @@ else {
     console.log(`Seu número não é maior que 20, seu número é: ${n1}`);
 
 };
+
+// comentario feito em 17/06/26
