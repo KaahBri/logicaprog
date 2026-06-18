@@ -46,26 +46,47 @@
 
 //Questão 2
 
-let F,M,N;
-M ="Masculino = insuportavel";
-F = "Feminino";
-N = "nada";
-console.log(`Informe seu sexo:`);
+// let bath;
+
+// bath = "Feminino";
+
+// console.log(`Informe seu sexo: ${bath}`);
 
 
 
-switch (N){
-    case M:
-        console.log(`Banheiro Masculino a direita.`);
+// switch (bath){
+//     case"Feminino":
+//         console.log(`Banheiro Feminino a esquerda`);
+//         break;
+//     case "Masculino":
+//         console.log(`Banheiro Masculino a direita.`);
+//         break;
+//     default:
+//         console.log(`Faz no chão`);
+//         break;
+// }
+
+
+
+
+//3) Desenvolver um programa que pergunte um número e informe como resposta se o número informado é par ou é ímpar.
+
+
+
+
+let n1,par;
+n1 = 153;
+
+console.log(`Informe um número: ${n1}`);
+
+switch (n1){
+    case n1:
+        console.log(`Impar`);
         break;
-    case F:
-        console.log(`Banheiro Feminino a esquerda`);
+    case par:
+        console.log(`Par`);
         break;
     default:
-        console.log(`Faz no chão`);
+        console.log(`Nada`);
         break;
 }
-
-
-
-
