@@ -66,7 +66,36 @@
 multiplicação sucessiva de n por 3 enquanto o produto for menor que 250. (n x 3; n x 3 x 3; n x 3 x 3 x 3 etc...).
 */
 
+let n = 80; 
+let nAnt;
 
+while (n > 50) {
+    
+    console.log(`Erro: O número ${n} é inválido. Digite um número menor ou igual a 50.`);
+    console.log(``);
+    
+    n = 2;
+    
+    console.log(`Seu novo número é: ${n}`);
+   console.log(``);
+}
+
+
+console.log(`      ~~~~ Resultados das multiplicações ~~~~     `);
+console.log(``);
+console.log(`           Valor inicial aceito: ${n}\n           `);
+
+
+while (n < 250) {
+    nAnt = n;
+    n = n * 3;
+    
+    if (n < 250) {
+        console.log(`${nAnt} x 3 = ${n}`);
+    }
+}
+
+console.log(`\n-------------------------------------`);
 
 
 //Questão 7 (FAZER EM CASA)

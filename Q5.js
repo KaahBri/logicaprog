@@ -37,22 +37,4 @@
 // Fazer um programa que pergunte o salário de um funcionário e apresente este salário com um aumento de 15%.
 
 
-let sal,aum, soma;
-
-
-
-
-
-
-sal = 1897.46;
-console.log(`Informe seu sálario: ${sal}`);
-
-
-
-aum = sal * 15/100;
-soma = sal + aum;
-
-
-// toFixed() é para forçar números depois da virgula.
-console.log(`Seu salário com aumento: ${soma.toFixed(2)}`);
-
+l
