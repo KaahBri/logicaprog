@@ -74,19 +74,101 @@
 
 
 
-let n1,par;
-n1 = 153;
+// let n1,par;
+// n1 = 158;
 
-console.log(`Informe um número: ${n1}`);
+// par = n1%2==0
 
-switch (n1){
-    case n1:
-        console.log(`Impar`);
-        break;
-    case par:
-        console.log(`Par`);
-        break;
-    default:
-        console.log(`Nada`);
-        break;
+// console.log(`Informe um número: ${n1}`);
+
+// switch (n1){
+//     case n1:
+//         console.log(`Impar`);
+//         break;
+//     case par:
+//         console.log(`Par`);
+//         break;
+//     default:
+//         console.log(`Nada`);
+//         break;
+// }
+
+
+
+
+// questão 5
+
+
+let mes = 10;
+
+
+console.log(`Informe um número: `);
+
+switch(mes){
+
+case 1: 
+console.log(`Mês janeiro.`);
+break;
+
+
+case 2:
+console.log(`Mês fevereiro`);
+break;
+
+
+case 3:
+console.log(`Mês março`);
+break;
+
+
+case 4:
+console.log(`Mês abril`);
+break;
+
+
+case 5:
+console.log(`Mês maio`);
+break;
+
+
+
+case 6:
+console.log(`Mês junho`);
+break;
+
+
+case 7:
+console.log(`Mês julho`);
+break;
+
+
+case 8:
+console.log(`Mês agosto`);
+break;
+
+
+case 9:
+console.log(`Mês setembro`);
+break;
+
+
+case 10:
+console.log(`Mês outubro`);
+break;
+
+
+case 11:
+console.log(`Mês novembro`);
+break;
+
+case 12:
+console.log(`Mês desembro`);
+break;
+
+default:
+console.log(`Mês janeiro.`);
+break;
+
+
+
 }

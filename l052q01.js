@@ -1,5 +1,19 @@
 // Questão 1 (feita em sala)
 
+let cont = 100;
+
+
+do {
+
+if(cont%2==0){
+  
+console.log(`${cont} é par`);
+
+}
+
+cont++
+}while(cont<=200);
+
 
 
 
@@ -108,6 +122,8 @@
 //Questão 7 
 
 // Desenvolver um programa que apresente as potências de 2, variando de 0 a 10.
+
+
 
 
 
