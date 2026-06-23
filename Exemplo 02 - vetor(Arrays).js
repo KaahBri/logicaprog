@@ -3,9 +3,18 @@
 let alunos = ["Ana " , "Bruno " , "Carlos " , "Diana "];
 
 
+
+
+
 // notas
 
 let notas = [3.5 , 7.8 , 8.9 , 10]
+
+
+// vetor com numeros
+
+let numeros = [6,23,-7,18,4,92,15,33,0,50];
+
 
 console.log();
 console.log(`Todos os pobres: ${alunos}`); // exibe todos os alunos bobos, hehe
@@ -104,3 +113,59 @@ console.log(alunos);
 
 alunos.shift();
 console.log(alunos);
+
+// ordernar um vetor em ordem crescente
+
+
+
+numeros.sort((a,b) => a-b);
+
+console.log(numeros);
+
+
+// ordem descrescente 
+
+numeros.sort((a,b) => b-a);
+
+console.log(numeros);
+
+
+// smepre pegue a linha primeiro
+
+let matrix = [  // [[1,2],[3,4]]
+    [1,2] , 
+    [3,4]
+];
+console.log();
+
+let letras = [
+    ["a", "b" ,"c" , "d"],
+    ["e" ,"f", "g" , "h"],
+    ["i" , "j" , "k" , "l"],
+    ["m" , "n" , "o" , "p"],
+    ["q" , "r" ,"s" ,"t"],
+   
+
+    
+    
+    
+];
+
+console.log(matrix);
+console.log(letras);
+
+
+// exibição dos valores da matriz letras usando for
+console.log();
+
+for (let linha = 0; linha < 5; linha++){
+
+    for(let col = 0; col < 4; col++){  // fofoca é bom para repetição.
+
+          
+    console.log(letras[linha][col]);
+   
+
+    }
+
+}
