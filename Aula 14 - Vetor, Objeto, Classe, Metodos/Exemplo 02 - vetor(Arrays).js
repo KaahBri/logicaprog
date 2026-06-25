@@ -76,7 +76,8 @@ console.log(``);
 
 for(let aluno of alunos){
 
-    console.log(`Nome: ${aluno}`)
+    console.log(`Nome: ${aluno}`);
+    
 }
 
 
